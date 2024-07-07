@@ -173,6 +173,7 @@ section {
 }
 .box {
     background-color: #3f7db0;
+    padding: 5px;
 }
 .my-row {
     gap: 2px;
@@ -186,7 +187,7 @@ section {
 .nested-row {
     padding: 2px;
 }
-.nested-row .box {
+.my-row .my-row .box {
     background-color: green;
 }
 
